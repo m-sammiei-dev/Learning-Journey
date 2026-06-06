@@ -1,49 +1,39 @@
-🔐 Vigenère Cipher Implementation
-A robust and interactive Python tool for text encryption using the classic Vigenère Cipher algorithm. This project was developed as part of the Scientific Computing with Python curriculum to master string manipulation, loops, and modular arithmetic.
+# 🔐 Vigenère Cipher Implementation
 
-🌟 Key Features
-Dynamic Key Rotation: Automatically repeats the keyword to match the message length using the modulo operator.
-Character Protection: Intelligently skips spaces, numbers, and special symbols during encryption, keeping the message structure intact.
-Interactive Interface: Features a persistent command-line menu for a seamless user experience.
-Automated Formatting: Converts all input to lowercase to ensure consistency and prevent indexing errors.
-🛠️ Internal Logic
+A robust and interactive Python tool for text encryption using the classic Vigenère Cipher algorithm. This project was developed as part of the *Scientific Computing with Python* curriculum to master string manipulation, loops, and modular arithmetic.
+
+### 🌟 Key Features
+- **Dynamic Key Rotation:** Automatically repeats the keyword to match the message length using the modulo operator.
+- **Character Protection:** Intelligently skips spaces, numbers, and special symbols during encryption, keeping the message structure intact.
+- **Interactive Interface:** Features a persistent command-line menu for a seamless user experience.
+- **Automated Formatting:** Converts all input to lowercase to ensure consistency and prevent indexing errors.
+
+### 🛠 Internal Logic
 The encryption process follows this mathematical formula:
 
-[
+$$E_i = (P_i + K_i) \pmod{26}$$
 
-E_i = (P_i + K_i) \pmod{26}
+**Where:**
+- **$E_i$**: The index of the resulting encrypted letter.
+- **$P_i$**: The index of the original plaintext letter in the alphabet.
+- **$K_i$**: The index of the corresponding key letter.
 
-]
-
-Where:
-
-(E_i): The index of the resulting encrypted letter.
-(P_i): The index of the original plaintext letter in the alphabet.
-(K_i): The index of the corresponding key letter.
-📸 Terminal Preview
+### 📸 Terminal Preview
 Below is a demonstration of the script in action:
 
-<div align=“center”>
+<p align="center">
+  <img src=image.png" alt="Terminal Output Preview" width="80%">
+</p>
 
-<img src=“image.png” alt=“Terminal Output Preview” width=“80%”>
+*The program handles user input, processes the encryption, and remains ready for the next command.*
 
-<i>The program handles user input, processes the encryption, and remains ready for the next command.</i>
+### 🚀 Getting Started
 
-</div>
-
-🚀 Getting Started
-Prerequisites
+**Prerequisites:**  
 Python 3.x installed on your machine.
-Execution
-Navigate to the directory:
 
+**Execution:**  
+Navigate to the directory and run the script:
+```bash
 cd "courses/vigenere cipher"
-Run the script:
-
 python main.py
-📂 Project Directory
-vigenere cipher/
-├── vigenere.py        # Core algorithm and Interactive Loop
-├── preview.png    # Screenshot of the execution (Terminal)
-└── README.md      # Project documentation
-Created with dedication by Mohammad Sammiei
