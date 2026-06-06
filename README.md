@@ -42,7 +42,7 @@ Welcome to my learning journey! I'm a Junior Developer documenting my path to ma
 `Thu` ░░░░░░░░░░ 0.0h  
 `Fri` ░░░░░░░░░░ 0.0h  
 `Sat` ▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7.0h  
-`Sun` ▓▓▓▓ 2.0h  
+`Sun` ▓▓▓▓▓▓ 3.0h  
 
 > *Note: Hours are tracked based on active coding and documentation sessions.*
 
