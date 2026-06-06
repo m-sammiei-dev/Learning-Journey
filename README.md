@@ -32,8 +32,8 @@ Welcome to my learning journey! I'm a Junior Developer documenting my path to ma
 | Date       | Task/Project              | Hours Spent |
 |:-----------|:--------------------------|:------------|
 | 2026-06-05 | Caesar Cipher & Basics    |7 hrs     | 
-| 2026-06-06 | Vigenère Project Complete | 2 hrs     |
-| **Total**  | **Learning Journey**      | **9 hrs**|
+| 2026-06-06 | Vigenère Project Complete | 3 hrs     |
+| **Total**  | **Learning Journey**      | **10 hrs**|
 
 ### 📈 Weekly Productivity (Visualized)
 `Mon` ░░░░░░░░░░ 0.0h  
