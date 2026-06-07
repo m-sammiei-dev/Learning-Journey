@@ -29,11 +29,11 @@ The **Luhn Algorithm** (also known as Modulus 10 or Mod 10 algorithm) is a check
 4. Add all digits together.
 5. If the total modulo 10 equals 0 → the card number is **valid**.
 
-Mathematically:
+### Mathematically:
+$$
+\text{Valid if: } \sum (\text{digits}) \pmod{10} = 0
+$$
 
-\[
-\text{Valid if} \quad \sum digits \mod 10 = 0
-\]
 
 ---
 
