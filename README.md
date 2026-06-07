@@ -26,14 +26,13 @@ Welcome to my learning journey! I'm a Junior Developer documenting my path to ma
 - **2026-06-06**
   - Completed the Vigenère project.
 
+- **2026-06-07**
+  - I did my first kata on the Codewars website.
 
-## 📊 Coding Activity Log
+## 🥋 Codewars Journey
+In this section, I document my algorithmic challenges and problem-solving progress.
 
-| Date       | Task/Project              | Hours Spent |
-|:-----------|:--------------------------|:------------|
-| 2026-06-05 | Caesar Cipher & Basics    |7 hrs     | 
-| 2026-06-06 | Vigenère Project Complete | 2 hrs     |
-| **Total**  | **Learning Journey**      | **9 hrs**|
+- [x] **Calculate BMI** (8 kyu) - [Link to code](./codewars/calculate_bmi.py)
 
 ### 📈 Weekly Productivity (Visualized)
 `Mon` ░░░░░░░░░░ 0.0h  
