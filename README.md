@@ -34,6 +34,12 @@ In this section, I document my algorithmic challenges and problem-solving progre
 
 - [x] **Calculate BMI** (8 kyu) - [Link to code](./codewars/calculate_bmi.py)
 
+| Date       | Task/Project              | Hours Spent |
+|:-----------|:--------------------------|:------------|
+| 2026-06-05 | Caesar Cipher & Basics    |7 hrs     | 
+| 2026-06-06 | Vigenère Project Complete | 3 hrs     |
+| **Total**  | **Learning Journey**      | **10 hrs**|
+
 ### 📈 Weekly Productivity (Visualized)
 `Mon` ░░░░░░░░░░ 0.0h  
 `Tue` ░░░░░░░░░░ 6.0h  
@@ -41,7 +47,7 @@ In this section, I document my algorithmic challenges and problem-solving progre
 `Thu` ░░░░░░░░░░ 0.0h  
 `Fri` ░░░░░░░░░░ 0.0h  
 `Sat` ▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7.0h  
-`Sun` ▓▓▓▓ 2.0h  
+`Sun` ▓▓▓▓▓▓ 3.0h  
 
 > *Note: Hours are tracked based on active coding and documentation sessions.*
 
