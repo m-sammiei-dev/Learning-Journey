@@ -35,7 +35,7 @@ def main():
     
         card_translation = str.maketrans({'-': '', ' ': ''})
         translated_card_number = user_input.translate(card_translation)
-    
+        continue
         if not translated_card_number.isdigit():
             print('Please enter numbers')
         if verify_card_number(translated_card_number):
