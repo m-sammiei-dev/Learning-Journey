@@ -66,11 +66,3 @@ INVALID
 
 If incorrect input:
 Please enter numbers only.
-
-🏦 Supported Card Types
-<ul>
-    <li>Visa</li>
-    <li>MasterCard</li>
-    <li>American Express</li>
-    <li>Returns "Unknown" for other prefixes</li>
-</ul>
