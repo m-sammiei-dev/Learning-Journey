@@ -24,7 +24,7 @@ def calculate_category_percentage(expenses, category):
     category_expenses = filter(lambda expense: expense['category'] == category, expenses)
     total_cat = sum(map(lambda expense: expense['amount'], category_expenses))
     
-    return (total_cat / total_all) * 100
+    return int((total_cat / total_all) * 100)
 
 
 expenses = []
