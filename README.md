@@ -19,8 +19,7 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 ## 🥋 Codewars Journey
 *Algorithms are the gym for a developer's brain.*
 
-- [x] **Calculate BMI** (8 kyu) - [View Solution](#)
-- [x] **Luhn Algorithm Validator** (6/7 kyu level) - [View Solution](#) 
+- [x] **Calculate BMI** (8 kyu) - [View Solution](#) 
 - [x] **Multiple Katas Completed** (Check commit history for details)
 
 ---
