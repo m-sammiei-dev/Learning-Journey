@@ -6,8 +6,12 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 
 ## 🎯 My Roadmap
 - [ ] Master Python Fundamentals (Current Focus)
-- [x] Build 5 Real-world Python Projects (2/5 Completed) 
-- [ ] Master AI-Integrated Applications & RAG Systems
+- [ ] Mathematics foe AI
+- [ ] Mashine Learning
+- [ ] Deep Learning
+- [ ] LLM Engineering
+- [ ] AI Systems
+- [ ] Deployment & MLOps
 
 ## 🛠 Tech Stack
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -31,7 +35,8 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 | 2026-06-05 | Caesar Cipher & Basics          | 7 hrs  |
 | 2026-06-06 | Vigenère Project Complete       | 3 hrs  |
 | 2026-06-07 | Luhn Algorithm & Codewars Katas | 5 hrs  |
-| **Total**  | **Learning Journey**            | **15 hrs** |
+| 2026-06-08 | Advanced Expense Tracker (Refactored) | 6 hrs  |
+| **Total**  | **Learning Journey**            | **21 hrs** |
 
 ---
 
@@ -44,6 +49,11 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
   - Implemented the **Luhn Algorithm** for credit card validation.
   - Solved multiple Katas on Codewars to strengthen logic.
   - Refined documentation and GitHub profile.
+  - - **2026-06-08:**
+    - Finished the **Expense Tracker** project from freeCodeCamp.
+    - **Custom Enhancements:** Added expense removal logic and category-based percentage reporting.
+    - Mastered the use of `filter()` and `map()` with `lambda` for financial calculations.
+    - Debugged file path issues and improved CLI user interaction.
 </details>
 
 ---
