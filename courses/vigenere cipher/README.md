@@ -21,11 +21,11 @@ $$E_i = (P_i + K_i) \pmod{26}$$
 ### 📸 Terminal Preview
 Below is a demonstration of the script in action:
 
-<p align="center">
-  <img src="image.png" alt="Terminal Output Preview" width="80%">
-</p>
+## 📸 Terminal Preview
 
-*The program handles user input, processes the encryption, and remains ready for the next command.*
+| 🔐 Vigenère Cipher Encryption Process |
+|:---:|
+| <img src="image.png" width="600"> |
 
 ### 🚀 Getting Started
 
