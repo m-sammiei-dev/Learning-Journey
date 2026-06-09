@@ -22,7 +22,7 @@ $$E_i = (P_i + K_i) \pmod{26}$$
 Below is a demonstration of the script in action:
 
 <p align="center">
-  <img src=image.png" alt="Terminal Output Preview" width="80%">
+  <img src="image.png" alt="Terminal Output Preview" width="80%">
 </p>
 
 *The program handles user input, processes the encryption, and remains ready for the next command.*
