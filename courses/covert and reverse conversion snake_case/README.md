@@ -14,9 +14,8 @@ A smart and efficient CLI tool designed to bridge the gap between different nami
 ## 🛠️ Usage
 1. Ensure you have Python installed.
 2. Clone this repository.
-3. Run the script using:
-```bash
-   python main.py
+3. Run the script using: python main.py
+
    
 ## 📸 Screenshots
 
