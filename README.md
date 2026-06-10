@@ -6,8 +6,8 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 
 ## 🎯 My Roadmap
 - [ ] Master Python Fundamentals (Current Focus)
-- [ ] Mathematics foe AI
-- [ ] Mashine Learning
+- [ ] Mathematics for AI
+- [ ] Machine Learning
 - [ ] Deep Learning
 - [ ] LLM Engineering
 - [ ] AI Systems
