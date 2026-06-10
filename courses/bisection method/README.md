@@ -5,6 +5,17 @@ This project is a part of my **Scientific Computing** learning journey. It imple
 ## 🎯 Project Purpose
 The goal was to move beyond basic calculations and understand the **convergence logic** of optimization algorithms. I've implemented the core mathematical logic and added a visualization layer to see how "error" behaves during the process.
 
+## ⚙️ How it Works (The Core Mechanism)
+The Bisection Method is a root-finding algorithm that repeatedly bisects an interval and then selects a sub-interval in which a root must lie for further processing.
+
+1.  **Search Space:** We define an initial interval `[low, high]` based on the target value.
+2.  **Midpoint Calculation:** At each step, we calculate the midpoint:  
+    $mid = \frac{low + high}{2}$
+3.  **Interval Halving:** 
+    - If $mid^n < target$, the root is in the upper half $\rightarrow$ `low = mid`.
+    - If $mid^n > target$, the root is in the lower half $\rightarrow$ `high = mid`.
+4.  **Convergence:** This process repeats until the distance between `low` and `high` is less than the `tolerance` ($10^{-7}$).
+
 ## 📊 Visualizing the Logic
 To make the algorithm's performance transparent and easier to understand, I used `matplotlib` to generate a **Convergence Plot**:
 
