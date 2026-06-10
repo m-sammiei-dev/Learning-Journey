@@ -21,10 +21,7 @@ To make the algorithm's performance transparent and easier to understand, I used
 </div>
 > *Note: While the core root-finding logic is the priority, I integrated data visualization tools to better represent the "Loss Curve" concept, which is fundamental in AI and Machine Learning.*
 
-## 🚀 How to Run
-1. Ensure you have `matplotlib` installed:
 
-   pip install matplotlib
 
 
 ## 🛠 Features
@@ -32,6 +29,11 @@ To make the algorithm's performance transparent and easier to understand, I used
 - **Validation:** Robust handling of edge cases like 0, 1, and error prevention for negative targets with even roots.
 - **Auto-Save:** The convergence analysis plot is automatically saved as `convergence_plot.png` for easy documentation.
 
+## 🚀 How to Run
+1. Ensure you have `matplotlib` installed:
+```bash
+   pip install matplotlib
+```
 ---
 **Developed by Mohammad Sammiei**  
 *Junior Developer & AI Student*
