@@ -84,12 +84,12 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
     * Created an **Auto-Detection** system to identify CamelCase vs PascalCase.
     * Advanced Markdown documentation: Managed image grids and interactive logs in `README.md`.
     * Increased **Codewars** score to 16 points by solving logic-based Katas.
-    
+
   - **2026-06-10:**
   - Developed the **Arithmetic Arranger** project from freeCodeCamp.
   - Implemented strict input validation for operators and digit-only operands.
   - Used `.rjust()` and `.join()` to format arithmetic problems vertically and cleanly.
-  - 📂 [View Arithmetic Arranger](#)
+  - 📂 [View Arithmetic Arranger](./project/python/arithmetic_arranger/)
 </details>
 
 
