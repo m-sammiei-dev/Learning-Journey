@@ -49,7 +49,7 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 
 | Date | Task / Project | Hours |
 |:---:|:---|:---:|
-| 2026-06-26 | Password Generator (+ CLI & Validation) | 3 hrs |
+| 2026-06-26 | Password Generator (+ CLI & Validation) | 7 hrs |
 | 2026-06-10 | Arithmetic Arranger (FreeCodeCamp) | 4 hrs |
 | 2026-06-09 | Case Converter & String Master | 4 hrs |
 | 2026-06-08 | Advanced Expense Tracker (Refactored) | 6 hrs |
