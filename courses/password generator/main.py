@@ -39,7 +39,6 @@ def generate_password(length=16, nums=1, special_chars=1, uppercase=1, lowercase
 def main():
     while True:
         print('\nWelcome to password generator')
-    
         print('1. Create New Password')
         print('2. Exit')
         choice = input('\nplease enter your choice: ')
