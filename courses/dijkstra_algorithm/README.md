@@ -4,9 +4,15 @@ A simple, readable implementation of **Dijkstra's algorithm** in pure Python (no
 
 ## 📊 Example Graph
 
-The diagram below shows a sample weighted graph. The highlighted red path represents a shortest path found by the algorithm between two nodes:
-
-![Sample graph and shortest path](graph_test.png)
+<table>
+<tr>
+<td align="center">
+<img src="graph_example.svg" alt="Weighted graph with shortest path A to F highlighted" width="500"/>
+<br/>
+<sub><b>Figure 1.</b> The weighted graph defined in <code>my_graph</code>. The red path shows the shortest route from <code>A</code> to <code>F</code> (distance = 6), computed by the algorithm below.</sub>
+</td>
+</tr>
+</table>
 
 ## ✨ Features
 
@@ -78,7 +84,7 @@ A-F distance: 6
 Path: A -> C -> B -> F
 ```
 
-This matches the highlighted path in the diagram: **A → C → B → F**.
+This matches the highlighted path in Figure 1: **A → C → B → F**.
 
 ## 📦 Running the Project
 
