@@ -4,6 +4,7 @@ A simple, readable implementation of **Dijkstra's algorithm** in pure Python (no
 
 ## 📊 Example Graph
 
+<div align="center">
 <table>
 <tr>
 <td align="center">
@@ -13,7 +14,7 @@ A simple, readable implementation of **Dijkstra's algorithm** in pure Python (no
 </td>
 </tr>
 </table>
-
+</div>
 ## ✨ Features
 
 - Computes the shortest distance from a start node to every other node
