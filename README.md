@@ -49,6 +49,7 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 
 | Date | Task / Project | Hours |
 |:---:|:---|:---:|
+| 2026-07-04 | Dijkstra's Shortest Path Algorithm (docs, diagram, refactor) | 7 hrs |
 | 2026-06-26 | Password Generator (+ CLI & Validation) | 7 hrs |
 | 2026-06-10 | Arithmetic Arranger (FreeCodeCamp) | 4 hrs |
 | 2026-06-09 | Case Converter & String Master | 4 hrs |
@@ -56,7 +57,7 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 | 2026-06-07 | Luhn Algorithm & Codewars Katas | 5 hrs |
 | 2026-06-06 | Vigenère Cipher | 3 hrs |
 | 2026-06-05 | Caesar Cipher & Repo Init | 7 hrs |
-| **Total** | **Learning Journey** | **32 hrs** |
+| **Total** | **Learning Journey** | **39 hrs** |
 
 ---
 
@@ -103,6 +104,17 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
     - 📂 [View Password Generator](./courses/password_generator/)
     - Added `re.escape()` to fix a regex bug present in the course version.
     - Implemented input validation with `ValueError` and unique password generation via `set()`.
+
+    
+  - **2026-07-04:**
+    - Built and documented a **Dijkstra's Shortest Path Algorithm** project in Python.
+    - 📂 [View Dijkstra Shortest Path](./courses/dijkstra_algorithm/)
+    - Refactored the implementation: simplified path reconstruction, added early exits (unreachable nodes / target reached), converted comments to English, and added a docstring.
+    - Wrote a full **README** with algorithm explanation, time complexity analysis (`O(V² + E)` vs. heap-optimized `O((V+E) log V)`), parameters table, and sample output.
+    - Designed a custom **SVG graph diagram** matching the project's actual data, with the shortest path highlighted, embedded in a centered, captioned table.
+    - Added shields.io badges (License, Python version) to the README header.
+    - Practiced writing clear, conventional **git commit messages** (`docs:`, `refactor:`, `style:`) across multiple small, focused commits.
+
 
 </details>
 
