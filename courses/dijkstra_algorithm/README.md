@@ -4,9 +4,9 @@ A simple, readable implementation of **Dijkstra's algorithm** in pure Python (no
 
 ## 📊 Example Graph
 
-The diagram below shows a sample weighted graph. The highlighted red path represents the shortest path found by the algorithm between two nodes:
+The diagram below shows a sample weighted graph. The highlighted red path represents a shortest path found by the algorithm between two nodes:
 
-![Sample graph and shortest path](graph_test.png)
+![Sample graph and shortest path](graph_example.png)
 
 ## ✨ Features
 
@@ -23,9 +23,21 @@ The diagram below shows a sample weighted graph. The highlighted red path repres
 4. If a shorter path to a neighbor is found, its distance and path are updated.
 5. The processed node is removed from the unvisited list until the list is empty.
 
+## ⏱️ Time Complexity
+
+This implementation selects the next node with `min(unvisited, key=distances.get)`, which is a **linear scan** over the unvisited list rather than a priority queue. That gives:
+
+- **Current implementation:** `O(V² + E)` — where `V` is the number of vertices and `E` is the number of edges.
+- **Optimized version (with a binary heap / `heapq`):** `O((V + E) log V)`
+
+For small graphs like the example above, the difference is negligible. For large graphs, replacing the linear scan with a min-heap (`heapq`) is the standard optimization and is recommended as a future improvement.
+
 ## 🚀 Usage
 
 ```python
+def shortest_path(graph, start, target=None):
+    ...
+
 my_graph = {
     'A': [('B', 5), ('C', 3), ('E', 11)],
     'B': [('A', 5), ('C', 1), ('F', 2)],
@@ -36,7 +48,7 @@ my_graph = {
 }
 
 # Compute the shortest path from A to F only
-shortest_path(my_graph, 'A', 'F')
+shortest_path(my_graph, 'A', target='F')
 
 # Compute the shortest path from A to all nodes
 shortest_path(my_graph, 'A')
@@ -44,18 +56,29 @@ shortest_path(my_graph, 'A')
 
 ### Parameters
 
-| Parameter | Description |
-|---|---|
-| `graph` | Graph dictionary in the form `{node: [(neighbor, weight), ...]}` |
-| `start` | The starting node |
-| `target` | (Optional) The target node; if empty, distances to all nodes are printed |
+| Parameter | Type | Default | Description |
+|---|---|---|---|
+| `graph` | `dict` | required | Graph dictionary in the form `{node: [(neighbor, weight), ...]}` |
+| `start` | `str` | required | The starting node |
+| `target` | `str \| None` | `None` | The target node. If `None`, distances and paths to **all** nodes are printed |
 
 ### Return Value
 
-The function returns a tuple of two dictionaries:
+The function returns a tuple `(distances, paths)`:
 
-- `distances`: the shortest distance from the start node to each node
-- `paths`: the list of nodes forming the shortest path to each node
+- `distances` (`dict`): the shortest distance from `start` to each node
+- `paths` (`dict`): the list of nodes forming the shortest path from `start` to each node
+
+## 📄 Sample Output
+
+Running `shortest_path(my_graph, 'A', target='F')` on the example graph above prints:
+
+```
+A-F distance: 6
+Path: A -> C -> B -> F
+```
+
+This matches the highlighted path in the diagram: **A → C → B → F**.
 
 ## 📦 Running the Project
 
