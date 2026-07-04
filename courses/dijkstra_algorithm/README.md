@@ -6,7 +6,7 @@ A simple, readable implementation of **Dijkstra's algorithm** in pure Python (no
 
 The diagram below shows a sample weighted graph. The highlighted red path represents a shortest path found by the algorithm between two nodes:
 
-![Sample graph and shortest path](graph_example.png)
+![Sample graph and shortest path](graph_test.png)
 
 ## ✨ Features
 
