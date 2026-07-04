@@ -15,20 +15,26 @@ A simple, readable implementation of **Dijkstra's algorithm** in pure Python (no
 </tr>
 </table>
 </div>
+
 ## ✨ Features
 
 - Computes the shortest distance from a start node to every other node
 - Reconstructs and displays the **actual path taken**, not just the final distance
 - Supports limiting the output to a single target node
+- Stops early once the target is reached, or once remaining nodes are unreachable
+- Handles unreachable nodes gracefully instead of crashing
+- Documented with a clear docstring
 - No external dependencies — pure Python only
 
 ## 🧠 How the Algorithm Works
 
 1. The graph is defined as a dictionary mapping each node to a list of `(neighbor, edge_weight)` pairs.
 2. The start node's distance is set to zero, and all other nodes are initialized to infinity.
-3. At each step, the closest unvisited node is selected and its neighbors are checked (the *relaxation* step).
-4. If a shorter path to a neighbor is found, its distance and path are updated.
-5. The processed node is removed from the unvisited list until the list is empty.
+3. At each step, the closest unvisited node is selected.
+4. **Early exit #1:** if that node's distance is still infinity, every remaining node is unreachable — the loop stops.
+5. **Early exit #2:** if a specific `target` was requested and it has just been reached, the loop stops — no need to keep exploring the rest of the graph.
+6. Otherwise, the node's neighbors are relaxed: if a shorter path to a neighbor is found, its distance and path are updated.
+7. The processed node is removed from the unvisited list, and the loop repeats until it's empty (or an early exit triggers).
 
 ## ⏱️ Time Complexity
 
@@ -37,13 +43,27 @@ This implementation selects the next node with `min(unvisited, key=distances.get
 - **Current implementation:** `O(V² + E)` — where `V` is the number of vertices and `E` is the number of edges.
 - **Optimized version (with a binary heap / `heapq`):** `O((V + E) log V)`
 
-For small graphs like the example above, the difference is negligible. For large graphs, replacing the linear scan with a min-heap (`heapq`) is the standard optimization and is recommended as a future improvement.
+In practice, the two early-exit checks (unreachable nodes, and reaching a specific `target`) often mean the loop finishes well before visiting every node, even without a heap.
 
 ## 🚀 Usage
 
 ```python
-def shortest_path(graph, start, target=None):
-    ...
+def shortest_path(graph, start, target=''):
+    """
+    Compute the shortest paths in a weighted graph using Dijkstra's algorithm.
+
+    Parameters:
+        graph: A weighted graph represented as an adjacency list.
+        start: The starting node.
+        target: The destination node. If not provided, the function prints
+            the shortest paths from the start node to all reachable nodes.
+
+    Returns:
+        distances: A dictionary mapping each node to its shortest distance
+            from the start node.
+        paths: A dictionary mapping each node to the shortest path
+            from the start node.
+    """
 
 my_graph = {
     'A': [('B', 5), ('C', 3), ('E', 11)],
@@ -54,8 +74,8 @@ my_graph = {
     'F': [('B', 2), ('D', 3)]
 }
 
-# Compute the shortest path from A to F only
-shortest_path(my_graph, 'A', target='F')
+# Compute the shortest path from A to F only (stops as soon as F is reached)
+shortest_path(my_graph, 'A', 'F')
 
 # Compute the shortest path from A to all nodes
 shortest_path(my_graph, 'A')
@@ -65,20 +85,28 @@ shortest_path(my_graph, 'A')
 
 | Parameter | Type | Default | Description |
 |---|---|---|---|
-| `graph` | `dict` | required | Graph dictionary in the form `{node: [(neighbor, weight), ...]}` |
-| `start` | `str` | required | The starting node |
-| `target` | `str \| None` | `None` | The target node. If `None`, distances and paths to **all** nodes are printed |
+| `graph` | `dict` | required | Graph in the form `{node: [(neighbor, weight), ...]}`. Directed by default — add edges in both directions for an undirected graph. |
+| `start` | `str` | required | The starting node. |
+| `target` | `str` | `''` | The target node. If empty, distances and paths to **all** nodes are printed. |
 
 ### Return Value
 
 The function returns a tuple `(distances, paths)`:
 
-- `distances` (`dict`): the shortest distance from `start` to each node
-- `paths` (`dict`): the list of nodes forming the shortest path from `start` to each node
+- `distances` (`dict`): the shortest distance from `start` to each node (`float('inf')` if unreachable)
+- `paths` (`dict`): the list of nodes forming the shortest path from `start` to each node (`[]` if unreachable)
+
+## 🚧 Unreachable Nodes
+
+If a node can't be reached from `start`, it isn't treated as an error — it's reported directly in the printed output:
+
+```
+A-X: unreachable
+```
 
 ## 📄 Sample Output
 
-Running `shortest_path(my_graph, 'A', target='F')` on the example graph above prints:
+Running `shortest_path(my_graph, 'A', 'F')` on the example graph above prints:
 
 ```
 A-F distance: 6
@@ -98,3 +126,7 @@ python shortest_path.py
 ## 📄 License
 
 This project is released under the MIT License. Feel free to use, modify, and distribute it.
+
+---
+**Developed by Mohammad Sammiei**  
+*Junior Developer & AI Student*
