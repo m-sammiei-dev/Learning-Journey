@@ -1,13 +1,4 @@
-my_graph = {
-    'A': [('B', 5), ('C', 3), ('E', 11)],
-    'B': [('A', 5), ('C', 1), ('F', 2)],
-    'C': [('A', 3), ('B', 1), ('D', 1), ('E', 5)],
-    'D': [('C',1 ), ('E', 9), ('F', 3)],
-    'E': [('A', 11), ('C', 5), ('D', 9)],
-    'F': [('B', 2), ('D', 3)]
-}
-
-def shortest_path(graph, start, target = ''):
+def shortest_path(graph, start, target=''):
     """
     Compute the shortest paths in a weighted graph using Dijkstra's algorithm.
 
@@ -24,31 +15,61 @@ def shortest_path(graph, start, target = ''):
             from the start node.
     """
 
+
     unvisited = list(graph)
+
     distances = {node: 0 if node == start else float('inf') for node in graph}
-    paths = {node: [] for node in graph}
-    paths[start].append(start)
     
+    
+    paths = {node: [] for node in graph}
+    paths[start] = [start] 
+
     while unvisited:
-        # Find the unvisited node with the minimum distance
+        # Select the unvisited node with the smallest known distance
         current = min(unvisited, key=distances.get)
-        # Perform edge relaxation for all neighbors
-        for node, distance in graph[current]:
-            if distance + distances[current] < distances[node]:
-                distances[node] = distance + distances[current]
-                if paths[node] and paths[node][-1] == node:
-                    paths[node] = paths[current][:]
-                else:
-                    paths[node].extend(paths[current])
-                paths[node].append(node)
+
+        if distances[current] == float('inf'):
+            break
+
+        if target and current == target:
+            break
+
+        for neighbor, weight in graph[current]:
+            new_distance = distances[current] + weight
+
+            # If a shorter path is found, update distance and reconstruct path
+            if new_distance < distances[neighbor]:
+                distances[neighbor] = new_distance
+                paths[neighbor] = paths[current] + [neighbor]
+
         unvisited.remove(current)
-    # Print the distance and path for the requested target nodes
+
+    # Determine which nodes to print results for
     targets_to_print = [target] if target else graph
+
+    # Display distances and paths
     for node in targets_to_print:
         if node == start:
             continue
-        print(f'\n{start}-{node} distance: {distances[node]}\nPath: {" -> ".join(paths[node])}')
-    
+
+        # Handle unreachable nodes gracefully
+        if distances[node] == float('inf'):
+            print(f"\n{start}-{node}: unreachable")
+        else:
+            print(f"\n{start}-{node} distance: {distances[node]}")
+            print(f"Path: {' -> '.join(paths[node])}")
+
     return distances, paths
-    
+
+
+my_graph = {
+    'A': [('B', 5), ('C', 3), ('E', 11)],
+    'B': [('A', 5), ('C', 1), ('F', 2)],
+    'C': [('A', 3), ('B', 1), ('D', 1), ('E', 5)],
+    'D': [('C', 1), ('E', 9), ('F', 3)],
+    'E': [('A', 11), ('C', 5), ('D', 9)],
+    'F': [('B', 2), ('D', 3)]
+}
+
+
 shortest_path(my_graph, 'A', 'F')
