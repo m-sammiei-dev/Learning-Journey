@@ -64,7 +64,7 @@ Press Enter to start...
 ========================================
  Puzzle Solved Successfully!
 Total Moves: 7
-Time Taken: 3.24 seconds
+Time Taken: 5.62 seconds
 ========================================
 ```
 
