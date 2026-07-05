@@ -108,3 +108,8 @@ This project keeps that logic intact from the original freeCodeCamp exercise, wh
 
 - Base recursive algorithm adapted from a **freeCodeCamp** learning exercise
 - Interactive UI, visualization, statistics, and overall program structure designed and implemented independently as an enhancement of the original exercise
+
+---
+
+**Developed by Mohammad**   
+*Junior Developer | Python Enthusiast*
