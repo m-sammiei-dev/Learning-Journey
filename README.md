@@ -49,6 +49,7 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 
 | Date | Task / Project | Hours |
 |:---:|:---|:---:|
+| 2026-07-05 | Tower of Hanoi (Interactive CLI, visual board, stats & timer) | 10 hrs |
 | 2026-07-04 | Dijkstra's Shortest Path Algorithm (docs, diagram, refactor) | 7 hrs |
 | 2026-06-26 | Password Generator (+ CLI & Validation) | 7 hrs |
 | 2026-06-10 | Arithmetic Arranger (FreeCodeCamp) | 4 hrs |
@@ -57,7 +58,7 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 | 2026-06-07 | Luhn Algorithm & Codewars Katas | 5 hrs |
 | 2026-06-06 | Vigenère Cipher | 3 hrs |
 | 2026-06-05 | Caesar Cipher & Repo Init | 7 hrs |
-| **Total** | **Learning Journey** | **39 hrs** |
+| **Total** | **Learning Journey** | **49 hrs** |
 
 ---
 
@@ -105,7 +106,6 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
     - Added `re.escape()` to fix a regex bug present in the course version.
     - Implemented input validation with `ValueError` and unique password generation via `set()`.
 
-    
   - **2026-07-04:**
     - Built and documented a **Dijkstra's Shortest Path Algorithm** project in Python.
     - 📂 [View Dijkstra Shortest Path](./courses/dijkstra_algorithm/)
@@ -115,6 +115,15 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
     - Added shields.io badges (License, Python version) to the README header.
     - Practiced writing clear, conventional **git commit messages** (`docs:`, `refactor:`, `style:`) across multiple small, focused commits.
 
+  - **2026-07-05:**
+    - Took the freeCodeCamp **Tower of Hanoi** recursion exercise and leveled it up into a full interactive console app.
+    - 📂 [View Tower of Hanoi](./courses/tower_of_hanoi/)
+    - Added a menu-driven CLI (start/exit) and user-defined disk count (1–8) with input validation.
+    - Built a live **text-based visual board** that redraws the rods and disks after every move.
+    - Added a **move counter** and an **execution timer** to summarize performance after solving.
+    - Added a short animation delay between moves for readability.
+    - Wrote a full **README** documenting the upgrade, including a feature comparison table against the original freeCodeCamp version.
+    - Wrote focused, conventional commits (`feat:`, `docs:`) separating the code changes from the documentation.
 
 </details>
 
