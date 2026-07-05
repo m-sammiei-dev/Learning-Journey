@@ -117,7 +117,7 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 
   - **2026-07-05:**
     - Took the freeCodeCamp **Tower of Hanoi** recursion exercise and leveled it up into a full interactive console app.
-    - 📂 [View Tower of Hanoi](./courses/tower_of_hanoi/)
+    - 📂 [View Tower of Hanoi](./courses/hanoi/)
     - Added a menu-driven CLI (start/exit) and user-defined disk count (1–8) with input validation.
     - Built a live **text-based visual board** that redraws the rods and disks after every move.
     - Added a **move counter** and an **execution timer** to summarize performance after solving.
