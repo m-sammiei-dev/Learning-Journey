@@ -32,28 +32,62 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 
 ---
 
-## 🥋 Codewars Journey
+## 🧩 Codewars Journey
 
-Algorithms are the gym for a developer's brain.
+<p><i>Algorithms are the gym for a developer's brain. I solve Codewars kata to improve problem solving, recursion, string manipulation, and algorithmic thinking.</i></p>
 
-I solve Codewars kata to improve problem solving, recursion, string manipulation, and algorithmic thinking.
-
-<div align="center">
-| Kata | File |
-|:---|:---:|
-| Bit Counting | [`bit_counting.py`](./codewars/Bit%20Counting/bit_counting.py) |
-| Calculate BMI | [`calculate_bmi.py`](./codewars/calculate%20bmi/calculate_bmi.py) |
-| Do They Agree | [`do_they_agree.py`](./codewars/Do%20They%20Agree/do_they_agree.py) |
-| Evaluate a Polynomial Efficiently | [`polynomial.py`](./codewars/Evaluate%20a%20Polynomial%20Efficiently/polynomial.py) |
-| Pig Latin | [`pig_latin.py`](./codewars/pig%20latin/pig_latin.py) |
+<table style="width: 100%; border-collapse: collapse; margin: 15px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #161b22; border-bottom: 2px solid #30363d;">
+      <th style="padding: 12px; text-align: left; color: #c9d1d9; font-size: 14px;">🎯 Kata Name</th>
+      <th style="padding: 12px; text-align: left; color: #c9d1d9; font-size: 14px;">🐍 Python Solution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #30363d;">
+      <td style="padding: 12px; color: #f0f6fc; font-weight: 500;">Bit Counting</td>
+      <td style="padding: 12px;">
+        <a href="./codewars/Bit%20Counting/bit_counting.py" style="text-decoration: none; color: #58a6ff; font-family: monospace;">
+          <code>bit_counting.py</code> ↗️
+        </a>
+      </td>
+    </tr>
+    <tr style="border-bottom: 1px solid #30363d;">
+      <td style="padding: 12px; color: #f0f6fc; font-weight: 500;">Calculate BMI</td>
+      <td style="padding: 12px;">
+        <a href="./codewars/calculate%20bmi/calculate_bmi.py" style="text-decoration: none; color: #58a6ff; font-family: monospace;">
+          <code>calculate_bmi.py</code> ↗️
+        </a>
+      </td>
+    </tr>
+    <tr style="border-bottom: 1px solid #30363d;">
+      <td style="padding: 12px; color: #f0f6fc; font-weight: 500;">Do They Agree</td>
+      <td style="padding: 12px;">
+        <a href="./codewars/Do%20They%20Agree/do_they_agree.py" style="text-decoration: none; color: #58a6ff; font-family: monospace;">
+          <code>do_they_agree.py</code> ↗️
+        </a>
+      </td>
+    </tr>
+    <tr style="border-bottom: 1px solid #30363d;">
+      <td style="padding: 12px; color: #f0f6fc; font-weight: 500;">Evaluate a Polynomial Efficiently</td>
+      <td style="padding: 12px;">
+        <a href="./codewars/Evaluate%20a%20Polynomial%20Efficiently/polynomial.py" style="text-decoration: none; color: #58a6ff; font-family: monospace;">
+          <code>polynomial.py</code> ↗️
+        </a>
+      </td>
+    </tr>
+    <tr style="border-bottom: 1px solid #30363d;">
+      <td style="padding: 12px; color: #f0f6fc; font-weight: 500;">Pig Latin</td>
+      <td style="padding: 12px;">
+        <a href="./codewars/pig%20latin/pig_latin.py" style="text-decoration: none; color: #58a6ff; font-family: monospace;">
+          <code>pig_latin.py</code> ↗️
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
-<p align="center">
-  <img src="https://img.shields.io/badge/Codewars-7%20kyu-3b82f6?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars Badge" />
-</p>
-
-</div>
-
 
 ---
 
