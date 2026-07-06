@@ -39,13 +39,6 @@ Algorithms are the gym for a developer's brain.
 I solve Codewars kata to improve problem solving, recursion, string manipulation, and algorithmic thinking.
 
 <div align="center">
-
-## 🥋 Codewars Journey
-
-*Algorithms are the gym for a developer's brain.*
-
-I solve Codewars kata to improve problem solving, recursion, string manipulation, and algorithmic thinking.
-
 | Kata | File |
 |:---|:---:|
 | Bit Counting | [`bit_counting.py`](./codewars/Bit%20Counting/bit_counting.py) |
@@ -55,18 +48,12 @@ I solve Codewars kata to improve problem solving, recursion, string manipulation
 | Pig Latin | [`pig_latin.py`](./codewars/pig%20latin/pig_latin.py) |
 
 <br>
-
-[![Codewars Badge](https://www.codewars.com/users/m-sammiei-dev/badges/large)](https://www.codewars.com/users/m-sammiei-dev)
+<p align="center">
+  <img src="https://img.shields.io/badge/Codewars-7%20kyu-3b82f6?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars Badge" />
+</p>
 
 </div>
 
-
-
-<p align="center">
-  <a href="https://www.codewars.com/users/m-sammiei-dev">
-    <img src="https://www.codewars.com/users/m-sammiei-dev/badges/large" alt="Codewars Badge" />
-  </a>
-</p>
 
 ---
 
