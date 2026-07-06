@@ -1,5 +1,8 @@
-# 🚀 My Learning Journey to AI Engineering
+<p align="center">
+  <img src="YOUR_BANNER_URL" alt="My AI Engineering Journey Banner" width="100%" />
+</p>
 
+<br>
 Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial Intelligence.
 
 ---
@@ -88,6 +91,9 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 </table>
 
 <br>
+<p align="center">
+  <img src="https://img.shields.io/badge/Codewars-7%20kyu-3b82f6?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars Badge" />
+</p>
 
 ---
 
