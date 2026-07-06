@@ -40,7 +40,7 @@ I solve Codewars kata to improve problem solving, recursion, string manipulation
 
 | Kata | File |
 |------|------|
-| Bit Counting | [`bit_conting.py`](./codewars/Bit%20Counting/bit_conting.py) |
+| Bit Counting | [`bit_conting.py`](./codewars/Bit%20Counting/bit_counting.py) |
 | Calculate BMI | [`calculate_bmi.py`](./codewars/calculate%20bmi/calculate_bmi.py) |
 | Do They Agree | [`do_they_agree.py`](./codewars/Do%20They%20Agree/do_they_agree.py) |
 | Evaluate a Polynomial Efficiently | [`polynomial.py`](./codewars/Evaluate%20a%20Polynomial%20Efficiently/polynomial.py) |
