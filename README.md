@@ -48,7 +48,11 @@ I solve Codewars kata to improve problem solving, recursion, string manipulation
 
 
 
-> 📊 Current Score: **65 points** — Goal: **100 points**
+<p align="left">
+  <a href="https://www.codewars.com/users/m-sammiei-dev">
+    <img src="https://www.codewars.com/users/m-sammiei-dev/badges/large" alt="Codewars Badge" />
+  </a>
+</p>
 
 ---
 
@@ -65,7 +69,7 @@ I solve Codewars kata to improve problem solving, recursion, string manipulation
 | 2026-06-07 | Luhn Algorithm & Codewars Katas | 5 hrs |
 | 2026-06-06 | Vigenère Cipher | 3 hrs |
 | 2026-06-05 | Caesar Cipher & Repo Init | 7 hrs |
-| **Total** | **Learning Journey** | **49 hrs** |
+| **Total** | **Learning Journey** | **53 hrs** |
 
 ---
 
