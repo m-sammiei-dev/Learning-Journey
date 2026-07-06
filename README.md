@@ -34,14 +34,20 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 
 ## 🥋 Codewars Journey
 
-*Algorithms are the gym for a developer's brain.*
+Algorithms are the gym for a developer's brain.
 
-| Kata | Rank | Solution |
-|:---|:---:|:---:|
-| Calculate BMI | 8 kyu | [View](./codewars/) |
-| Luhn Algorithm | 8 kyu | [View](./codewars/) |
+I solve Codewars kata to improve problem solving, recursion, string manipulation, and algorithmic thinking.
 
-> 📊 Current Score: **16 points** — Goal: **50 points**
+| Kata | File |
+|------|------|
+| Bit Counting | `codewars/Bit Counting/bit_conting.py` |
+| Calculate BMI | `codewars/calculate bmi/calculate_bmi.py` |
+| Do They Agree | `codewars/Do They Agree/do_they_agree.py` |
+| Evaluate a Polynomial Efficiently | `codewars/Evaluate a Polynomial Efficiently/polynomial.py` |
+| Pig Latin | `codewars/pig latin/pig_latin.py` |
+
+
+> 📊 Current Score: **65 points** — Goal: **100 points**
 
 ---
 
