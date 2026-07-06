@@ -39,7 +39,7 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 
 <p><i>Algorithms are the gym for a developer's brain. I solve Codewars kata to improve problem solving, recursion, string manipulation, and algorithmic thinking.</i></p>
 
-<table style="width: 100%; border-collapse: collapse; margin: 15px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+<table style="width: 100%; border-collapse: collapse; margin: 15px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" align="center">
   <thead>
     <tr style="background-color: #161b22; border-bottom: 2px solid #30363d;">
       <th style="padding: 12px; text-align: left; color: #c9d1d9; font-size: 14px;">🎯 Kata Name</th>
@@ -92,7 +92,9 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 
 <br>
 <p align="center">
-  <img src="https://img.shields.io/badge/Codewars-7%20kyu-3b82f6?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars Badge" />
+  <a href="https://www.codewars.com/users/m-sammiei-dev">
+    <img src="https://www.codewars.com/users/m-sammiei-dev/badges/large" alt="Codewars Badge" />
+  </a>
 </p>
 
 ---
