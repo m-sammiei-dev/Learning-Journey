@@ -38,17 +38,31 @@ Algorithms are the gym for a developer's brain.
 
 I solve Codewars kata to improve problem solving, recursion, string manipulation, and algorithmic thinking.
 
+<div align="center">
+
+## 🥋 Codewars Journey
+
+*Algorithms are the gym for a developer's brain.*
+
+I solve Codewars kata to improve problem solving, recursion, string manipulation, and algorithmic thinking.
+
 | Kata | File |
-|------|------|
-| Bit Counting | [`bit_conting.py`](./codewars/Bit%20Counting/bit_counting.py) |
+|:---|:---:|
+| Bit Counting | [`bit_counting.py`](./codewars/Bit%20Counting/bit_counting.py) |
 | Calculate BMI | [`calculate_bmi.py`](./codewars/calculate%20bmi/calculate_bmi.py) |
 | Do They Agree | [`do_they_agree.py`](./codewars/Do%20They%20Agree/do_they_agree.py) |
 | Evaluate a Polynomial Efficiently | [`polynomial.py`](./codewars/Evaluate%20a%20Polynomial%20Efficiently/polynomial.py) |
 | Pig Latin | [`pig_latin.py`](./codewars/pig%20latin/pig_latin.py) |
 
+<br>
+
+[![Codewars Badge](https://www.codewars.com/users/m-sammiei-dev/badges/large)](https://www.codewars.com/users/m-sammiei-dev)
+
+</div>
 
 
-<p align="left">
+
+<p align="center">
   <a href="https://www.codewars.com/users/m-sammiei-dev">
     <img src="https://www.codewars.com/users/m-sammiei-dev/badges/large" alt="Codewars Badge" />
   </a>
@@ -58,18 +72,70 @@ I solve Codewars kata to improve problem solving, recursion, string manipulation
 
 ## 📈 Activity & Stats
 
-| Date | Task / Project | Hours |
-|:---:|:---|:---:|
-| 2026-07-05 | Tower of Hanoi (Interactive CLI, visual board, stats & timer) | 10 hrs |
-| 2026-07-04 | Dijkstra's Shortest Path Algorithm (docs, diagram, refactor) | 7 hrs |
-| 2026-06-26 | Password Generator (+ CLI & Validation) | 7 hrs |
-| 2026-06-10 | Arithmetic Arranger (FreeCodeCamp) | 4 hrs |
-| 2026-06-09 | Case Converter & String Master | 4 hrs |
-| 2026-06-08 | Advanced Expense Tracker (Refactored) | 6 hrs |
-| 2026-06-07 | Luhn Algorithm & Codewars Katas | 5 hrs |
-| 2026-06-06 | Vigenère Cipher | 3 hrs |
-| 2026-06-05 | Caesar Cipher & Repo Init | 7 hrs |
-| **Total** | **Learning Journey** | **53 hrs** |
+<div align="center">
+
+## 📈 Activity & Stats
+
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Task / Project</th>
+    <th>Hours</th>
+  </tr>
+  <tr>
+    <td>2026-07-05</td>
+    <td>Tower of Hanoi (Interactive CLI, visual board, stats & timer)</td>
+    <td>10 hrs</td>
+  </tr>
+  <tr>
+    <td>2026-07-04</td>
+    <td>Dijkstra's Shortest Path Algorithm (docs, diagram, refactor)</td>
+    <td>7 hrs</td>
+  </tr>
+  <tr>
+    <td>2026-06-26</td>
+    <td>Password Generator (+ CLI & Validation)</td>
+    <td>7 hrs</td>
+  </tr>
+  <tr>
+    <td>2026-06-10</td>
+    <td>Arithmetic Arranger (FreeCodeCamp)</td>
+    <td>4 hrs</td>
+  </tr>
+  <tr>
+    <td>2026-06-09</td>
+    <td>Case Converter & String Master</td>
+    <td>4 hrs</td>
+  </tr>
+  <tr>
+    <td>2026-06-08</td>
+    <td>Advanced Expense Tracker (Refactored)</td>
+    <td>6 hrs</td>
+  </tr>
+  <tr>
+    <td>2026-06-07</td>
+    <td>Luhn Algorithm & Codewars Katas</td>
+    <td>5 hrs</td>
+  </tr>
+  <tr>
+    <td>2026-06-06</td>
+    <td>Vigenère Cipher</td>
+    <td>3 hrs</td>
+  </tr>
+  <tr>
+    <td>2026-06-05</td>
+    <td>Caesar Cipher & Repo Init</td>
+    <td>7 hrs</td>
+  </tr>
+  <tr>
+    <td><strong>Total</strong></td>
+    <td><strong>Learning Journey</strong></td>
+    <td><strong>53 hrs</strong></td>
+  </tr>
+</table>
+
+</div>
+
 
 ---
 
