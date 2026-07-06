@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="YOUR_BANNER_URL" alt="My AI Engineering Journey Banner" width="100%" />
+  <img src="banner.png" alt="My AI Engineering Journey Banner" width="100%" />
 </p>
 
 <br>
