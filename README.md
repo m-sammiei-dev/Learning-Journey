@@ -8,14 +8,14 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 ---
 
 ## 🎯 My Roadmap
-
-- [ ] **Master Python Fundamentals** ← Current Focus
-- [ ] Mathematics for AI
-- [ ] Machine Learning
-- [ ] Deep Learning
-- [ ] LLM Engineering
-- [ ] AI Systems
-- [ ] Deployment & MLOps
+```mermaid
+flowchart LR
+A[Master Python Fundamentals<br/>(Current Focus)] --> B[Mathematics for AI]
+B --> C[Machine Learning]
+C --> D[Deep Learning]
+D --> E[LLM Engineering]
+E --> F[AI Systems]
+F --> G[Deployment & MLOps]
 
 ---
 
