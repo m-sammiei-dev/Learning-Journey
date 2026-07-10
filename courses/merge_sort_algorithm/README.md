@@ -75,3 +75,7 @@ python main.py
 ```bash
 python -m pytest
 ```
+
+---
+**Developed by Mohammad Sammiei**  
+*Junior Developer & AI Student*
