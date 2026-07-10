@@ -253,17 +253,12 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 
 ---
 
-<p align="center">
-  <a href="https://t.me/Msammiei" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Telegram-@Msammiei-blue?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>
-  <a href="https://instagram.com/$ammiei" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Instagram-%24ammiei-e4405f?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
-  </a>
-  <a href="mailto:mohammad.sammiei.dev@gmail.com" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Email-mohammad.sammiei.dev%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
+<div align="center">
+
+[![Telegram](https://img.shields.io/badge/Telegram-@Msammiei-blue?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Msammiei) [![Instagram](https://img.shields.io/badge/Instagram-%24ammiei-e4405f?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/$ammiei) [![Email](https://img.shields.io/badge/Email-mohammad.sammiei.dev%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammad.sammiei.dev@gmail.com)
+
+</div>
+
 
 ---
 
