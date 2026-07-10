@@ -7,12 +7,31 @@ This project is based on the Merge Sort tutorial from **freeCodeCamp**. The orig
 ## How It Works
 
 <div align="center">
-
-| Visual Demo | Legend & Logic |
-| :---: | :--- |
-| <img src="merge_sort_demo.gif" width="400px" /> | **Color Guide:**<br>🟦 **Blue**: Active sub-array<br>⬜ **Gray**: Pending elements<br>🟩 **Green**: Final sorted array<br><br>**Logic:**<br>1. **Divide**: Split until size is 1.<br>2. **Conquer**: Merge back while sorting. |
-
+  <table>
+    <tr>
+      <!-- ستون سمت چپ: گیف آموزشی شما -->
+      <td width="50%" align="center">
+        <img src="merge_sort_demo.gif" alt="Merge Sort Animation" width="100%">
+        <br>
+        <em>نمای متحرک الگوریتم تقسیم و حل</em>
+      </td>
+      <!-- ستون سمت راست: راهنمای رنگ‌ها -->
+      <td width="50%" valign="top">
+        <h4>Legend & Guide</h4>
+        <ul>
+          <li>🟦 <b>Blue:</b> در حال ادغام (Merge)</li>
+          <li>⬜ <b>Gray:</b> خارج از پردازش فعلی</li>
+          <li>🟩 <b>Green:</b> مرتب‌شده نهایی</li>
+        </ul>
+        <hr>
+        <p align="justify">
+          <b>Logic:</b> این انیمیشن نشان می‌دهد که آرایه ابتدا به کوچکترین واحدها (تک عضوی) تقسیم شده و سپس به صورت مرتب‌شده با هم ترکیب می‌شوند.
+        </p>
+      </td>
+    </tr>
+  </table>
 </div>
+
 
 
 ## Honest Disclosure About AI Assistance
