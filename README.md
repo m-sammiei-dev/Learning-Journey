@@ -112,6 +112,11 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
     <th>Hours</th>
   </tr>
   <tr>
+    <td>2026-07-10</td>
+    <td>Merge Sort Algorithm (modular structure, stats & timer, tests, animated demo)</td>
+    <td>8 hrs</td>
+  </tr>
+  <tr>
     <td>2026-07-05</td>
     <td>Tower of Hanoi (Interactive CLI, visual board, stats & timer)</td>
     <td>10 hrs</td>
@@ -159,7 +164,7 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
   <tr>
     <td><strong>Total</strong></td>
     <td><strong>Learning Journey</strong></td>
-    <td><strong>53 hrs</strong></td>
+    <td><strong>61 hrs</strong></td>
   </tr>
 </table>
 
@@ -230,6 +235,21 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
     - Added a short animation delay between moves for readability.
     - Wrote a full **README** documenting the upgrade, including a feature comparison table against the original freeCodeCamp version.
     - Wrote focused, conventional commits (`feat:`, `docs:`) separating the code changes from the documentation.
+
+  - **2026-07-06 → 2026-07-09:**
+    - No new project shipped during this window — spent the time reviewing earlier lessons and algorithms (recursion, Dijkstra, Hanoi) to make sure the fundamentals were solid before starting the next project.
+    - Revisited notes and re-ran older projects to confirm they still made sense without looking things up.
+
+  - **2026-07-10:**
+    - Took the freeCodeCamp **Merge Sort** exercise and turned it into a modular project.
+    - 📂 [View Merge Sort Algorithm](./courses/merge_sort_algorithm/)
+    - Split the single-file tutorial version into `merge_sort.py` (core algorithm), `main.py` (interactive CLI), and `test/test_merge_sort.py` (pytest suite covering empty, single-element, duplicate, and negative-number cases).
+    - Added a `reverse` flag for ascending/descending order and a `stats` dictionary to count comparisons, plus execution timing via `time.perf_counter`.
+    - Made the sort **stable** by using `<=` instead of `<` in the merge comparison.
+    - Wrote a full **README** with an algorithm walkthrough (divide/merge steps with a worked example), Big-O analysis (`O(n log n)` vs. `O(n²)` trade-offs), and a feature comparison table against the original freeCodeCamp version.
+    - Generated an **animated GIF** visualizing the divide-and-conquer process, with a color-coded legend explaining each stage.
+    - Openly disclosed which parts were built with AI assistance (project modularization, stats/timing implementation) versus what I already knew (the core algorithm itself).
+    - Wrote focused, conventional commits (`feat:`, `docs:`) separating code from documentation.
 
 </details>
 
