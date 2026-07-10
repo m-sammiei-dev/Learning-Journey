@@ -99,8 +99,6 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
 
 ---
 
-## 📈 Activity & Stats
-
 <div align="center">
 
 ## 📈 Activity & Stats
