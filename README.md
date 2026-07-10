@@ -250,6 +250,7 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
     - Wrote focused, conventional commits (`feat:`, `docs:`) separating code from documentation.
 
 </details>
+
 ---
 
 <p align="center">
