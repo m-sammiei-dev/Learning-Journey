@@ -1,4 +1,15 @@
 def merge_sort(array, reverse=False, stats=None):
+    """Sort array in-place using merge sort.
+
+    Args:
+        array: List of comparable elements to sort.
+        reverse: If True, sort in descending order.
+        stats: Optional dict to track comparison count.
+
+    Returns:
+        None. The array is modified in-place.
+    """
+     
     if len(array) <= 1:
         return
 
