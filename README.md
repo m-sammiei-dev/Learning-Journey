@@ -36,15 +36,16 @@ Instead of only uploading finished code, I use this space to track progress, bui
 
 - [ ] Complete the next freeCodeCamp Python project
 - [ ] Reach 50 points on Codewars
-- [ ] Practice Git branching and merging on real mini-projects
-- [ ] Improve README writing and project documentation
+- [ ] Use branching and merge workflow in at least 2 mini-projects
+- [ ] Improve documentation quality in 3 existing projects
 
-## 📚 What I'm Learning Right Now
+## 📚 What I'm Practicing Right Now
 
-- Python fundamentals
-- Problem solving with small algorithmic challenges
-- Writing cleaner code and better documentation
-- Building consistency through small but complete projects
+- Core Python syntax and program structure
+- Small algorithmic problem solving
+- Writing cleaner and more modular code
+- Project documentation and repository organization
+
 
 ---
 
@@ -56,6 +57,25 @@ Instead of only uploading finished code, I use this space to track progress, bui
 
 ---
 
+## 🌟 Featured Projects
+
+- **Merge Sort Algorithm**  
+  Modular implementation with CLI, tests, timing, stats, and animated visualization.  
+  [View project](./courses/merge_sort_algorithm/)
+
+- **Tower of Hanoi**  
+  Interactive console app with visual board, move counter, and execution timer.  
+  [View project](./courses/hanoi/)
+
+- **Dijkstra's Shortest Path Algorithm**  
+  Python implementation with full documentation, complexity analysis, and custom graph diagram.  
+  [View project](./courses/dijkstra_algorithm/)
+
+## 🗂 Learning Logs
+
+I keep a more detailed record of projects, improvements, and study notes in a separate file.
+
+---
 ## 🧩 Codewars Journey
 
 *Algorithms are the gym for a developer's brain. I solve Codewars kata to improve problem solving, recursion, string manipulation, and algorithmic thinking.*
@@ -76,96 +96,15 @@ Instead of only uploading finished code, I use this space to track progress, bui
 </p>
 
 ---
-## 📈 Activity & Stats
 
-<p align="center">
-  <img src="./assets/activity_graph_test.png" alt="Learning activity graph" width="100%" />
-</p>
+## Learning Activity Snapshot
 
-<p align="center">
-  <b>Total learning time:</b> 61 hours
-</p>
-
-<details>
-  <summary><b>View activity table</b></summary>
-
-  <br>
-
-  <table>
-    <tr>
-      <th>Date</th>
-      <th>Task / Project</th>
-      <th>Hours</th>
-    </tr>
-    <tr>
-      <td>2026-07-10</td>
-      <td>Merge Sort Algorithm</td>
-      <td>8 hrs</td>
-    </tr>
-    <tr>
-      <td>2026-07-05</td>
-      <td>Tower of Hanoi</td>
-      <td>10 hrs</td>
-    </tr>
-    <tr>
-      <td>2026-07-04</td>
-      <td>Dijkstra's Shortest Path Algorithm</td>
-      <td>7 hrs</td>
-    </tr>
-    <tr>
-      <td>2026-06-26</td>
-      <td>Password Generator</td>
-      <td>7 hrs</td>
-    </tr>
-    <tr>
-      <td>2026-06-10</td>
-      <td>Arithmetic Arranger</td>
-      <td>4 hrs</td>
-    </tr>
-    <tr>
-      <td>2026-06-09</td>
-      <td>Case Converter & String Master</td>
-      <td>4 hrs</td>
-    </tr>
-    <tr>
-      <td>2026-06-08</td>
-      <td>Advanced Expense Tracker</td>
-      <td>6 hrs</td>
-    </tr>
-    <tr>
-      <td>2026-06-07</td>
-      <td>Luhn Algorithm & Codewars Katas</td>
-      <td>5 hrs</td>
-    </tr>
-    <tr>
-      <td>2026-06-06</td>
-      <td>Vigenere Cipher</td>
-      <td>3 hrs</td>
-    </tr>
-    <tr>
-      <td>2026-06-05</td>
-      <td>Caesar Cipher & Repo Init</td>
-      <td>7 hrs</td>
-    </tr>
-  </table>
-
-</details>
+- Total logged entries: 11
+- Review period: 2026-07-06 to 2026-07-09
+- Latest update: 2026-07-10
+- Focus: Python, algorithms, CLI projects, problem solving
 
 ---
-## 🌟 Featured Projects
-
-- **Merge Sort Algorithm**  
-  Modular implementation with CLI, tests, timing, stats, and animated visualization.  
-  [View project](./courses/merge_sort_algorithm/)
-
-- **Tower of Hanoi**  
-  Interactive console app with visual board, move counter, and execution timer.  
-  [View project](./courses/hanoi/)
-
-- **Dijkstra's Shortest Path Algorithm**  
-  Python implementation with full documentation, complexity analysis, and custom graph diagram.  
-  [View project](./courses/dijkstra_algorithm/)
-
 ## 🗂 Learning Logs
 
 I keep a more detailed record of projects, improvements, and study notes in a separate file.
@@ -174,10 +113,8 @@ I keep a more detailed record of projects, improvements, and study notes in a se
 
 ---
 
----
-
 ## Final Note
 
-I'm still at the beginning of this journey, but I'm committed to improving step by step, project by project.
+This repository is not just a collection of code — it is a record of progress, discipline, and long-term learning.
 
-> "The best way to predict the future is to create it."
+I'm still early in the journey, but I believe small consistent steps lead to strong engineering skills over time.
