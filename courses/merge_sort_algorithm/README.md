@@ -5,18 +5,32 @@
 This project is based on the Merge Sort tutorial from **freeCodeCamp**. The original fCC version was a single file that only implemented the sorting algorithm. I took that version and turned it into a more complete, modular project.
 
 ## How It Works
+<div align="center">
+  <table>
+    <tr>
+      <!-- Left column: Educational GIF -->
+      <td width="50%" align="center">
+        <img src="merge_sort_demo.gif" alt="Merge Sort Animation" width="100%">
+        <br>
+        <em>Visualization of the Divide and Conquer algorithm</em>
+      </td>
+      <!-- Right column: Legend & Guide -->
+      <td width="50%" valign="top">
+        <h4>Legend & Guide</h4>
+        <ul>
+          <li>🟦 <b>Blue:</b> Currently being merged</li>
+          <li>⬜ <b>Gray:</b> Inactive / Pending</li>
+          <li>🟩 <b>Green:</b> Final sorted state</li>
+        </ul>
+        <hr>
+        <p align="justify">
+          <b>Logic:</b> This animation demonstrates how the array is recursively split into single-element sub-arrays and then merged back together in sorted order.
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-![Merge Sort demo](merge_sort_demo.gif)
-
-*The array `[8, 3, 7, 1, 9, 2, 6, 4]` is recursively split in half, then merged back together in sorted order. Each frame shows a comparison or placement step until the whole array is sorted.*
-
-### Color Guide
-
-| Color | Meaning |
-|---|---|
-| 🟦 Blue | Active sub-array being merged |
-| ⬜ Gray | Pending elements |
-| 🟩 Green | Final sorted array |
 
 ### Logic
 
