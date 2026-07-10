@@ -250,6 +250,19 @@ Welcome! I'm a **Junior Developer** on a mission to master Python and Artificial
     - Wrote focused, conventional commits (`feat:`, `docs:`) separating code from documentation.
 
 </details>
+---
+
+<p align="center">
+  <a href="https://t.me/Msammiei">
+    <img src="https://img.shields.io/badge/Telegram-@Msammiei-blue?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+  </a>
+  <a href="https://instagram.com/$ammiei">
+    <img src="https://img.shields.io/badge/Instagram-%24ammiei-e4405f?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+  <a href="mailto:mohammad.sammiei.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-mohammad.sammiei.dev%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+</p>
 
 ---
 
