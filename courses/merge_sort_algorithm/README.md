@@ -6,15 +6,14 @@ This project is based on the Merge Sort tutorial from **freeCodeCamp**. The orig
 
 ## How It Works
 
-![Merge Sort demo](merge_sort_demo.gif)
+<div align="center">
 
-*The array `[8, 3, 7, 1, 9, 2, 6, 4]` is recursively split in half, then merged back together in sorted order. Each frame shows a comparison or placement step until the whole array is sorted.*
+| Visual Demo | Legend & Logic |
+| :---: | :--- |
+| <img src="merge_sort_demo.gif" width="400px" /> | **Color Guide:**<br>🟦 **Blue**: Active sub-array<br>⬜ **Gray**: Pending elements<br>🟩 **Green**: Final sorted array<br><br>**Logic:**<br>1. **Divide**: Split until size is 1.<br>2. **Conquer**: Merge back while sorting. |
 
-| Color | Meaning |
-|---|---|
-| 🟦 Blue | Segment currently being merged |
-| ⬜ Gray | Not part of the current step |
-| 🟩 Green | Final sorted array |
+</div>
+
 
 ## Honest Disclosure About AI Assistance
 
