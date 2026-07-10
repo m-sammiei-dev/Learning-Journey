@@ -9,29 +9,28 @@ This project is based on the Merge Sort tutorial from **freeCodeCamp**. The orig
 <div align="center">
   <table>
     <tr>
-      <!-- ستون سمت چپ: گیف آموزشی شما -->
+      <!-- Left column: Educational GIF -->
       <td width="50%" align="center">
         <img src="merge_sort_demo.gif" alt="Merge Sort Animation" width="100%">
         <br>
-        <em>نمای متحرک الگوریتم تقسیم و حل</em>
+        <em>Visualization of the Divide and Conquer algorithm</em>
       </td>
-      <!-- ستون سمت راست: راهنمای رنگ‌ها -->
+      <!-- Right column: Legend & Guide -->
       <td width="50%" valign="top">
         <h4>Legend & Guide</h4>
         <ul>
-          <li>🟦 <b>Blue:</b> در حال ادغام (Merge)</li>
-          <li>⬜ <b>Gray:</b> خارج از پردازش فعلی</li>
-          <li>🟩 <b>Green:</b> مرتب‌شده نهایی</li>
+          <li>🟦 <b>Blue:</b> Currently being merged</li>
+          <li>⬜ <b>Gray:</b> Inactive / Pending</li>
+          <li>🟩 <b>Green:</b> Final sorted state</li>
         </ul>
         <hr>
         <p align="justify">
-          <b>Logic:</b> این انیمیشن نشان می‌دهد که آرایه ابتدا به کوچکترین واحدها (تک عضوی) تقسیم شده و سپس به صورت مرتب‌شده با هم ترکیب می‌شوند.
+          <b>Logic:</b> This animation demonstrates how the array is recursively split into single-element sub-arrays and then merged back together in sorted order.
         </p>
       </td>
     </tr>
   </table>
 </div>
-
 
 
 ## Honest Disclosure About AI Assistance
