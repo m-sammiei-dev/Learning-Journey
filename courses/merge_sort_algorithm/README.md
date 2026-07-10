@@ -6,32 +6,57 @@ This project is based on the Merge Sort tutorial from **freeCodeCamp**. The orig
 
 ## How It Works
 
-<div align="center">
-  <table>
-    <tr>
-      <!-- Left column: Educational GIF -->
-      <td width="50%" align="center">
-        <img src="merge_sort_demo.gif" alt="Merge Sort Animation" width="100%">
-        <br>
-        <em>Visualization of the Divide and Conquer algorithm</em>
-      </td>
-      <!-- Right column: Legend & Guide -->
-      <td width="50%" valign="top">
-        <h4>Legend & Guide</h4>
-        <ul>
-          <li>🟦 <b>Blue:</b> Currently being merged</li>
-          <li>⬜ <b>Gray:</b> Inactive / Pending</li>
-          <li>🟩 <b>Green:</b> Final sorted state</li>
-        </ul>
-        <hr>
-        <p align="justify">
-          <b>Logic:</b> This animation demonstrates how the array is recursively split into single-element sub-arrays and then merged back together in sorted order.
-        </p>
-      </td>
-    </tr>
-  </table>
-</div>
+![Merge Sort demo](merge_sort_demo.gif)
 
+*The array `[8, 3, 7, 1, 9, 2, 6, 4]` is recursively split in half, then merged back together in sorted order. Each frame shows a comparison or placement step until the whole array is sorted.*
+
+### Color Guide
+
+| Color | Meaning |
+|---|---|
+| 🟦 Blue | Active sub-array being merged |
+| ⬜ Gray | Pending elements |
+| 🟩 Green | Final sorted array |
+
+### Logic
+
+Merge Sort works by breaking a big problem (sorting *n* elements) into smaller, easier problems (sorting 1 element, which is trivially already sorted), then combining the solutions back together. This strategy is called **Divide and Conquer**.
+
+**Step 1 — Divide**
+The array is split in half recursively until each sub-array contains a single element. For example, `[8, 3, 7, 1, 9, 2, 6, 4]` breaks down like this:
+
+```
+[8, 3, 7, 1, 9, 2, 6, 4]
+        ↓
+[8, 3, 7, 1]        [9, 2, 6, 4]
+    ↓                    ↓
+[8, 3]   [7, 1]     [9, 2]   [6, 4]
+  ↓        ↓          ↓        ↓
+[8][3]   [7][1]     [9][2]   [6][4]
+```
+
+A single element is always "sorted" by definition, so this is the base case where recursion stops.
+
+**Step 2 — Conquer (Merge)**
+Starting from the smallest pieces, pairs of sorted sub-arrays are merged back together in the correct order. To merge two sorted sub-arrays, we compare their front elements one at a time and always take the smaller one first:
+
+```
+[8] and [3]  →  compare 8 vs 3  →  3 is smaller  →  [3, 8]
+[7] and [1]  →  compare 7 vs 1  →  1 is smaller  →  [1, 7]
+[3, 8] and [1, 7]  →  compare step by step  →  [1, 3, 7, 8]
+```
+
+This repeats level by level until the whole array is merged back into one fully sorted array.
+
+**Why it's efficient**
+- Splitting the array in half each time takes `log₂(n)` levels of recursion.
+- Merging all elements at each level takes `O(n)` work.
+- Combined, this gives Merge Sort a time complexity of **O(n log n)**, which is significantly better than simpler algorithms like Bubble Sort or Insertion Sort (`O(n²)`) for large inputs.
+- The trade-off is space: Merge Sort needs `O(n)` extra memory to hold the temporary left/right sub-arrays during merging, unlike in-place algorithms such as Quick Sort.
+
+**Where `stats` and `reverse` fit in**
+- Every time two elements are compared inside the merge step, `stats["comparisons"]` is incremented — this is what lets the program report exactly how many comparisons were needed.
+- The `reverse` flag simply flips the comparison condition (`>=` instead of `<=`), so the same merge logic works for descending order without duplicating any code.
 
 ## Honest Disclosure About AI Assistance
 
@@ -75,7 +100,6 @@ python main.py
 ```bash
 python -m pytest
 ```
-
 ---
 **Developed by Mohammad Sammiei**  
 *Junior Developer & AI Student*
