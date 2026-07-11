@@ -4,6 +4,11 @@ This file contains the full history of my learning journey, project notes, and d
 
 ---
 
+### 2026-07-11: Time Calculator
+- **Action:** Took the freeCodeCamp Time Calculator exercise and rebuilt it with full input validation (`TypeError`/`ValueError`), a structured `dict` return value instead of a plain string, an interactive CLI, and a 33-case test suite (`unittest`-style, run with `pytest`).
+- **Outcome:** Went from a version with no error handling and a plain-string result to a validated, well-tested, documented utility function.
+- 📂 [View project](./courses/time_calculator/)
+
 ### 2026-07-10: Merge Sort Algorithm
 - **Action:** Modularized the project, added `pytest` suite, performance stats, and stable merge logic.
 - **Outcome:** Clean, professional structure with animated visualization.
@@ -51,4 +56,4 @@ This file contains the full history of my learning journey, project notes, and d
 - 📂 [View project](./courses/caesar%20cipher/)
 
 ---
-*Last updated: 2026-07-10*
+*Last updated: 2026-07-11*
