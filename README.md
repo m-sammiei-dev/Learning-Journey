@@ -79,7 +79,7 @@ Instead of only uploading finished code, I use this space to track progress, bui
 ## 🧩 Codewars Journey
 
 *Algorithms are the gym for a developer's brain. I solve Codewars kata to improve problem solving, recursion, string manipulation, and algorithmic thinking.*
-<div align="center">
+
 | Kata Name | Python Solution |
 |----------|------------------|
 | Bit Counting | [`bit_counting.py`](./codewars/Bit%20Counting/bit_counting.py) |
@@ -87,9 +87,9 @@ Instead of only uploading finished code, I use this space to track progress, bui
 | Do They Agree | [`do_they_agree.py`](./codewars/Do%20They%20Agree/do_they_agree.py) |
 | Evaluate a Polynomial Efficiently | [`polynomial.py`](./codewars/Evaluate%20a%20Polynomial%20Efficiently/polynomial.py) |
 | Pig Latin | [`pig_latin.py`](./codewars/pig%20latin/pig_latin.py) |
-</div>
+
 <br>
-<p align="center">
+<p>
   <a href="https://www.codewars.com/users/m-sammiei-dev">
     <img src="https://www.codewars.com/users/m-sammiei-dev/badges/large" alt="Codewars Badge" />
   </a>
