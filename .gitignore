@@ -1,15 +1,12 @@
-.venv/
-# Python cache
+# Python bytecode
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
 # Pytest
 .pytest_cache/
 
-# Virtual Environment (اگر دارید)
+# Environments
 .venv/
-env/
 venv/
-
-# IDE files (VS Code)
-.vscode/
+ENV/
