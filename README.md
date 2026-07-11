@@ -75,10 +75,6 @@ Instead of only uploading finished code, I use this space to track progress, bui
   Python implementation with full documentation, complexity analysis, and custom graph diagram.  
   [View project](./courses/dijkstra_algorithm/)
 
-## 🗂 Learning Logs
-
-I keep a more detailed record of projects, improvements, and study notes in a separate file.
-
 ---
 ## 🧩 Codewars Journey
 
