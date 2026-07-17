@@ -1,5 +1,11 @@
 # ⏰ Time Calculator
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
+![Status](https://img.shields.io/badge/status-complete-success)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
+## About
 A Python function that calculates a new time by adding a duration to a
 starting time — with optional weekday tracking across day rollovers.
 

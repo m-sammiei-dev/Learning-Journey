@@ -1,5 +1,10 @@
 # Merge Sort Project (Enhanced Version)
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
+![Status](https://img.shields.io/badge/status-complete-success)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
 ## About
 
 This project is based on the Merge Sort tutorial from **freeCodeCamp**. The original fCC version was a single file that only implemented the sorting algorithm. I took that version and turned it into a more complete, modular project.
