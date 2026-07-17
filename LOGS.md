@@ -3,6 +3,10 @@
 This file contains the full history of my learning journey, project notes, and daily progress.
 
 ---
+### 2026-07-16 → 2026-07-17: Sudoku Solver
+- **Action:** Developed a 9x9 Sudoku solver using recursion and backtracking. Implemented rigorous input validation and a comprehensive `pytest` suite for unit testing. Refined project documentation with verified examples.
+- **Outcome:** Delivered a clean, modular, and well-tested algorithm with professional-grade `README.md` documentation.
+- 📂 [View project](./courses/sudoku_solver/)
 
 ### 2026-07-11: Time Calculator
 - **Action:** Took the freeCodeCamp Time Calculator exercise and rebuilt it with full input validation (`TypeError`/`ValueError`), a structured `dict` return value instead of a plain string, an interactive CLI, and a 33-case test suite (`unittest`-style, run with `pytest`).

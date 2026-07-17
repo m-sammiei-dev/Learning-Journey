@@ -42,7 +42,7 @@ Instead of only uploading finished code, I use this space to track progress, bui
 ## 📚 What I'm Practicing Right Now
 
 - Core Python syntax and program structure
-- Small algorithmic problem solving
+- Backtracking algorithms and recursive problem solving
 - Writing cleaner and more modular code
 - Project documentation and repository organization
 
@@ -58,6 +58,9 @@ Instead of only uploading finished code, I use this space to track progress, bui
 ---
 
 ## 🌟 Featured Projects
+- **Sudoku Solver**  
+  Python-based solver using backtracking algorithms. Features full input validation, 9x9 board support, and a modular pytest suite.  
+  [View project](./courses/sudoku_solver/)
 
 - **Time Calculator**  
   Time-addition utility with full input validation, a structured return value, an interactive CLI, and a 33-case pytest suite.  
@@ -70,10 +73,6 @@ Instead of only uploading finished code, I use this space to track progress, bui
 - **Tower of Hanoi**  
   Interactive console app with visual board, move counter, and execution timer.  
   [View project](./courses/hanoi/)
-
-- **Dijkstra's Shortest Path Algorithm**  
-  Python implementation with full documentation, complexity analysis, and custom graph diagram.  
-  [View project](./courses/dijkstra_algorithm/)
 
 ---
 ## 🧩 Codewars Journey
