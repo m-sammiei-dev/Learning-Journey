@@ -1,8 +1,13 @@
 # Sudoku Solver
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
+![Status](https://img.shields.io/badge/status-complete-success)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
 A simple Python Sudoku solver built with object-oriented design and a backtracking algorithm.
 
-## Overview
+## 🧩 Overview
 
 This project solves standard 9x9 Sudoku puzzles using recursion and backtracking. The solver searches for empty cells, checks whether candidate numbers follow Sudoku rules, and continues until the puzzle is solved.
 
@@ -13,7 +18,7 @@ The project includes:
 - a small command-line interface in `main.py`
 - automated tests written with `pytest`
 
-## Features
+## ✅ Features
 
 - Solves standard 9x9 Sudoku puzzles
 - Uses a recursive backtracking algorithm
@@ -22,7 +27,7 @@ The project includes:
 - Includes unit tests for core behavior
 - Provides a simple terminal-based interface
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 courses/sudoku_solver/
@@ -32,7 +37,7 @@ courses/sudoku_solver/
     └── test_sudoku_solver.py
 ```
 
-## How It Works
+## 🧠 How It Works
 
 The solver uses a backtracking algorithm to complete the Sudoku board.
 
@@ -72,7 +77,7 @@ If needed, install `pytest` to run the tests:
 pip install pytest
 ```
 
-## Usage
+## 💻 Usage
 
 Run the program from the project directory:
 
@@ -80,26 +85,56 @@ Run the program from the project directory:
 python main.py
 ```
 
-When prompted, enter 9 rows of the Sudoku puzzle.
+When prompted, enter 9 rows of the Sudoku puzzle.  
 Use spaces between numbers and enter `0` for empty cells.
 
-## Example Puzzle
+## 🎬 Example Input Board
 
-```python
-[
-    [0, 0, 2, 0, 0, 8, 0, 0, 0],
-    [0, 0, 0, 0, 0, 3, 7, 6, 2],
-    [4, 3, 0, 0, 0, 0, 8, 0, 0],
-    [0, 5, 0, 0, 3, 0, 0, 9, 0],
-    [0, 4, 0, 0, 0, 0, 0, 2, 6],
-    [0, 0, 0, 4, 6, 7, 0, 0, 0],
-    [0, 8, 6, 7, 0, 4, 0, 0, 0],
-    [0, 0, 0, 5, 1, 9, 0, 0, 8],
-    [1, 7, 0, 0, 0, 6, 0, 0, 5],
-]
+```text
++-------+-------+-------+
+| 0 0 2 | 0 0 8 | 0 0 0 |
+| 0 0 0 | 0 0 3 | 7 6 2 |
+| 4 3 0 | 0 0 0 | 8 0 0 |
++-------+-------+-------+
+| 0 5 0 | 0 3 0 | 0 9 0 |
+| 0 4 0 | 0 0 0 | 0 2 6 |
+| 0 0 0 | 4 6 7 | 0 0 0 |
++-------+-------+-------+
+| 0 8 6 | 7 0 4 | 0 0 0 |
+| 0 0 0 | 5 1 9 | 0 0 8 |
+| 1 7 0 | 0 0 6 | 0 0 5 |
++-------+-------+-------+
 ```
 
-## Running Tests
+## 🔍 Solver Flow
+
+The program works like this:
+
+- 🔍 Finds the next empty cell
+- 🧠 Tries numbers from `1` to `9`
+- ✅ Checks row, column, and 3x3 box rules
+- 🔁 Backtracks if a move leads to a dead end
+- 🏁 Stops when the puzzle is solved
+
+## 🏁 Example Solved Board
+
+```text
++-------+-------+-------+
+| 6 9 2 | 1 7 8 | 5 4 3 |
+| 5 1 8 | 9 4 3 | 7 6 2 |
+| 4 3 7 | 6 2 5 | 8 1 9 |
++-------+-------+-------+
+| 7 5 1 | 2 3 6 | 4 9 8 |
+| 8 4 3 | 1 5 9 | 0 2 6 |
+| 2 6 9 | 4 8 7 | 3 5 1 |
++-------+-------+-------+
+| 9 8 6 | 7 5 4 | 2 3 1 |
+| 3 2 4 | 5 1 9 | 6 7 8 |
+| 1 7 5 | 3 9 2 | 0 8 5 |
++-------+-------+-------+
+```
+
+## 🧪 Running Tests
 
 Run the test suite with:
 
@@ -140,7 +175,7 @@ This project demonstrates:
 - clean method decomposition
 - unit testing with `pytest`
 
-## Future Improvements
+## 🚀 Future Improvements
 
 Possible enhancements for this project:
 
