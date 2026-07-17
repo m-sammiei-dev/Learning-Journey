@@ -35,7 +35,7 @@ Instead of only uploading finished code, I use this space to track progress, bui
 ## 🚀 Current Goals
 
 - [ ] Complete the next freeCodeCamp Python project
-- [ ] Reach 50 points on Codewars
+- [X] Reach 50 points on Codewars
 - [ ] Use branching and merge workflow in at least 2 mini-projects
 - [ ] Improve documentation quality in 3 existing projects
 
