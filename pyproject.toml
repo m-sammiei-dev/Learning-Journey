@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+pythonpath = [
+    ".",
+    "courses/bst",
+    "courses/merge_sort_algorithm",
+    "project/python/Time Calculator"
+]
