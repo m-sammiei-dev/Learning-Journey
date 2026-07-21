@@ -8,43 +8,12 @@
 A clean, modular, and fully-tested Python implementation of a Binary Search Tree (BST) with clean English comments.
 
 <div align="center">
-  <h3>Algorithmic Logic & Implementation Details</h3>
-  <table border="0" cellpadding="10">
-    <tr>
-      <td valign="middle">
-        <img src="assets/bst_diagram.png" width="300" alt="BST Logic Diagram">
-      </td>
-      <td valign="middle">
-        <table border="1">
-          <thead>
-            <tr>
-              <th>Implementation Logic</th>
-              <th>Common Approach</th>
-              <th>My Solution</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><b>Node Deletion</b></td>
-              <td>Partial/Basic</td>
-              <td>Recursive Successor Logic</td>
-            </tr>
-            <tr>
-              <td><b>Traversal</b></td>
-              <td>Iterative (Basic)</td>
-              <td>Optimized Recursion</td>
-            </tr>
-            <tr>
-              <td><b>Robustness</b></td>
-              <td>No Error Checking</td>
-              <td>Defensive `None` Handling</td>
-            </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  </table>
+  <br>
+  <img src="assets/bst_diagram.png" width="550" alt="Binary Search Tree Structure">
+  <p><i>A robust, OOP-based BST featuring recursive node deletion (with inorder successor replacement), optimized recursive traversals, and defensive null/boundary handling.</i></p>
+  <br>
 </div>
+
 
 ## Features
 - **Core Operations**: Insert, Search, and Delete (handling leaf nodes, single-child, and two-children nodes with inorder successor replacement).
