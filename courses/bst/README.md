@@ -8,37 +8,36 @@
 A clean, modular, and fully-tested Python implementation of a Binary Search Tree (BST) with clean English comments.
 
 <div align="center">
-  <h3>Implementation Comparison & Visual Structure</h3>
+  <h3>Algorithmic Logic & Implementation Details</h3>
   <table border="0" cellpadding="10">
     <tr>
       <td valign="middle">
-        <!-- اینجا تصویر خود را قرار دهید -->
-        <img src="bst_diagram.png" width="300" alt="BST Structure">
+        <img src="assets/bst_diagram.png" width="300" alt="BST Logic Diagram">
       </td>
       <td valign="middle">
-        <table>
+        <table border="1">
           <thead>
             <tr>
-              <th>Feature</th>
-              <th>Standard</th>
-              <th>My Implementation</th>
+              <th>Implementation Logic</th>
+              <th>Common Approach</th>
+              <th>My Solution</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Architecture</td>
-              <td>Script-based</td>
-              <td>Modular (OOP)</td>
+              <td><b>Node Deletion</b></td>
+              <td>Partial/Basic</td>
+              <td>Recursive Successor Logic</td>
             </tr>
             <tr>
-              <td>Testing</td>
-              <td>Manual</td>
-              <td>Automated (pytest)</td>
+              <td><b>Traversal</b></td>
+              <td>Iterative (Basic)</td>
+              <td>Optimized Recursion</td>
             </tr>
             <tr>
-              <td>Deletion</td>
-              <td>Basic</td>
-              <td>Robust (successor handling)</td>
+              <td><b>Robustness</b></td>
+              <td>No Error Checking</td>
+              <td>Defensive `None` Handling</td>
             </tr>
           </tbody>
         </table>
@@ -53,6 +52,22 @@ A clean, modular, and fully-tested Python implementation of a Binary Search Tree
 - **Traversals**: In-order tree traversal (`left -> root -> right`).
 - **Visualization**: Rotated 90-degree text representation of the tree structure.
 - **Testing**: Complete unit test suite using `pytest`.
+
+## Public API
+
+The `BinarySearchTree` class exposes the following methods for direct use:
+
+| Method | Description | Time Complexity |
+| :--- | :--- | :--- |
+| `insert(value)` | Add a new node to the tree while preserving BST ordering. | `O(h)` |
+| `search(value)` | Check whether a value exists in the tree. | `O(h)` |
+| `delete(value)` | Remove a node while preserving BST properties. | `O(h)` |
+| `count_nodes()` | Count all nodes currently stored in the tree. | `O(n)` |
+| `height()` | Compute the height of the tree. | `O(n)` |
+| `display()` | Render the tree in a readable rotated format. | `O(n)` |
+
+> `h` is the height of the tree, and `n` is the total number of nodes.
+
 ## Implementation Comparison
 
 | Feature | FCC / Standard Tutorial | My Implementation |
