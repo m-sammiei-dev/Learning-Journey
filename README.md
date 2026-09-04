@@ -20,9 +20,9 @@ Instead of only uploading finished code, I use this space to track progress, bui
 ## 🎯 Learning Roadmap
 
 - [x] Started Python journey
-- [ ] Master Python Fundamentals
-- [ ] Build strong problem-solving skills
-- [ ] Learn Mathematics for AI
+- [X] Master Python Fundamentals
+- [X] Build strong problem-solving skills
+- [X] Learn Mathematics for AI
 - [ ] Study Machine Learning
 - [ ] Explore Deep Learning
 - [ ] Learn LLM Engineering
